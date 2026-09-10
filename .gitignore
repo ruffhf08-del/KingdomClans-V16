@@ -1,34 +1,85 @@
-# Gradle files
-.gradle/
+# Build directories
 build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+dist/
+out/
+bin/
+.gradle/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
+# IDE files
+*.iml
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Gradle
+gradlew
+gradlew.bat
+gradle/
 
-# Android Profiling
-*.hprof
+# Android
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Game assets (optional - remove if tracking assets)
+/assets/large_files/
+*.psd
+*.aseprite
+
+# Save files
+*.sav
+*.bak
+saves/
+
+# Dependencies
+/libs/
+/dependencies/
+node_modules/
+
+# Logs
+*.log
+.logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.~*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.coverage
+*.gcda
+*.gcno
