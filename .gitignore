@@ -1,85 +1,35 @@
-# Build directories
+# Build output
 build/
 dist/
-out/
-bin/
-.gradle/
-.idea/
+*.apk
+*.aab
+*.ap_
 
-# IDE files
+# Gradle
+.gradle/
+gradle/
+local.properties
+
+# IDE
+.idea/
 *.iml
 *.iws
 *.ipr
 .vscode/
 .DS_Store
+
+# Temp
 *.swp
 *.swo
 *~
-.project
-.classpath
-.c9/
-
-# Gradle
-gradlew
-gradlew.bat
-gradle/
-
-# Android
-local.properties
-*.apk
-*.aab
-*.ap_
-*.dex
-*.class
-
-# Game assets (optional - remove if tracking assets)
-/assets/large_files/
-*.psd
-*.aseprite
-
-# Save files
-*.sav
-*.bak
-saves/
+.class
+*.log
 
 # Dependencies
-/libs/
-/dependencies/
-node_modules/
+libs/
+*.jar
 
-# Logs
-*.log
-.logs/
-
-# OS files
+# OS
 Thumbs.db
-.DS_Store
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-
-# Temporary files
-*.tmp
-*.temp
-.~*
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Compiled Python
-*.pyc
-*.pyo
-__pycache__/
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Test coverage
-coverage/
-.coverage
-*.gcda
-*.gcno
